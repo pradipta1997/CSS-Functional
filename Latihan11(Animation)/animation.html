@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> CSS Animation </title>
+	
+	<style>
+	
+		.kotak{
+			width:200px;
+			height:200px;
+			background-color:blue;
+			animation-name: animasiKotak;
+			animation-duration: 2s;
+			animation-timing-function: ease;
+			animation-iteration-count: 2;
+			animation-direction:alternate-reverse;
+			animation-fill-mode:forward;
+			
+		}
+		
+	
+		@keyframes animasiKotak {
+			0%{
+				width:200px;
+			}
+			
+			
+			60%{
+				height:500px;
+			}
+			
+			100%{
+				width:500px;
+				height:200px;
+				
+			}
+		}
+	
+	</style>
+	
+	
+</head>
+<body>
+	<div class="kotak"></div>
+</body>
+</html>

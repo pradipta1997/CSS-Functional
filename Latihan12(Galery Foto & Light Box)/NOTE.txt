@@ -1,0 +1,13 @@
+full size : 600 x 800px
+thumbnail : 120x120px
+
+font : bebas neue
+extention : .woff
+
+Link Download Font : www.fontsquirrel.com
+
+
+
+
+
+https://id.pinterest.com/pin/654710864566728749/

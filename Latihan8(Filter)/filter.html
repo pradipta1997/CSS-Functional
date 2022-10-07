@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filter</title>
+<style>
+
+	body{
+		text-align: center;
+	}
+
+	img{
+		width: 800px;
+		display: inline-block;
+		
+		/*UNTUK MEMBUAT GAMBAR MENJADI BLUR*/
+		-webkit- filter:blur(50px);
+		filter:blur(50px);
+		
+
+		/* UNTUK TERANGNYA GAMBAR
+		-webkit-filter: brightness(150%);
+		filter: brightness(150%);
+		*/
+
+		/*UNTUK MEMPERTAJAM WARNA GAMBAR
+		-webkit-filter: contrast(200%);
+		filter: contrast(200%);
+		*/
+
+		/*UNTUK GAMBAR SEMAKIN BERWARNA / WARNA NYA KELUAR*/
+		-webkit-filter: saturate(0%);
+		filter: saturate(0%);
+		transition: 2s;
+		
+
+		/*MEMBUAT GAMBAR MENJADI ABU2,SEMAKIN TINGGI NILAI MAKA SEMAKIN ABU2
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		*/
+
+		/*UNTUK MEMBUAT GAMBAR MENJADI KUNING RETRO
+		-webkit-filter: sepia(100%);
+		filter: sepia(100%);
+		*/
+
+		/*RODA WARNA UNTUK MERUBAH SELURUH WARNA YANG ADA DENGAN MEMUTAR SEARAH JARUM JAM
+		-webkit-filter: hue-rotate(120deg);
+		filter: hue-rotate(120deg);
+		*/
+
+		/*MEMBUAT WARNA GAMBAR MENJADI SEPERTI NEGATIVE FILM
+		-webkit-filter: invert(100%);
+		filter: invert(100%);
+		*/
+
+		/*MEMBUAT GAMBAR MENJADI TRANSPARAN 
+		-webkit-filter: opacity(30%);
+		filter: opacity(30%);
+		*/
+
+		/*UNTUK MEMBUAT GAMBAR MEMPUNYAI BAYANGAN DI SISINYA
+		-webkit-filter: drop-shadow(5px 5px 5px black);
+		filter: drop-shadow(5px 5px 5px black);
+		*/
+
+	}
+
+	img:hover{
+		-webkit-filter: saturate(100%);
+		filter: saturate(100%);
+	}
+
+	/* Filter
+
+		blur(px)
+		brightness(angka | %)
+		contrast(angka | &)
+		saturate(angka | %)
+		grayscale(angka | %)
+		sepia(angka | %)
+		hue-rotate(deg)
+		invert(angka | %)
+		opacity(angka | %)
+		drop-shadow(sama seperti property box-shadow)
+	*/
+
+	h1 {
+
+		font-family: 'calibri';
+	}
+
+</style>
+</head>
+
+<body>
+
+	<h1>Filter in CSS3</h1>
+
+	<img src="bg.jpg" alt="Vektor Pemandangan">
+
+</body>
+</html>

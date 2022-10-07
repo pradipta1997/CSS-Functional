@@ -1,0 +1,24 @@
+TIMING FUNCTION
+----------------
+
+[property] <durasi> [fungsi] [delay];
+
+fungsi transisi bisa di sebut juga timing function.
+dan ini juga bisa di fungsikan pada saat menggunakan property 
+TRANSITION 
+
+	Timing Function
+	----------------
+	ease (none)
+	ease-in (Semakin lama semakin cepat)
+	ease-out
+	ease-in-out
+	linear
+	cubic-bezier(w,x,y,z)
+
+DELAY
+------
+
+[property] <durasi> [fungsi] [delay];
+
+

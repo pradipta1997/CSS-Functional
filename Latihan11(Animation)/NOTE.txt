@@ -1,0 +1,21 @@
+Nilai yang bisa di beri ke dalam PROPERTY ANIMATION ;
+
+ANIMATION :
+
+[name] --> adalah nama yang diberi pada fungsi @keyframe
+
+[duration] --> sama seperti fungsi di transation
+
+[timing-function] --> sama seperti fungsi di transation
+
+[delay] --> sama seperti fungsi di transation
+
+[iteration-count] --> angka(1,2,3...)/infinite, angka untuk menggulang berapa kali yg di inginkan / infinite bisa berulang-ulang
+
+[direction] --> value-nya normal(awal-akhir)|reverse(akhir-awal)|alternate(awal-akhir-awal)|alternate-reverse(akhir-awal-akhir) 
+		fungsi direction ialah menentukan awal mulai nya sebuah objek.
+
+[fill-mode] --> none|forwards|backwards|both
+		untuk menentukan akhir dari transition-nya seperti apa
+
+[play-state] --> running|paused

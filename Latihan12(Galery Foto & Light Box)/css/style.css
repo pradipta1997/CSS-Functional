@@ -1,0 +1,66 @@
+/* Font	*/
+@font-face{
+	font-family: 'BebasNeue';
+	src: url(../font/BebasNeue-Regular.woff) format('woff');
+}
+	
+
+/*STYLE UTAMA*/
+	
+body{	
+	font:18px;
+	line-height: 36px;
+	font-family: 'BebasNeue','arial',sans-serif;
+	background-color: #babaa5;
+	
+}	
+	
+h1{
+	color:black;
+	font-size:80px;
+	margin:50px 0;
+	text-align:center;
+	text-shadow:2px 2px 3px white;
+	
+}
+
+span{
+	color:black;
+}
+
+.container{
+	width:600px;
+	padding:30px;
+	margin:auto;
+	background-color:white;
+	box-shadow:0 0 3px 3px rgba(0,0,0,.3);
+	border-radius:5px;
+}
+
+.gallery li{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	overflow:hidden;
+	border:5px solid #bbbbb7;
+	float:left;
+	margin-right:10px;
+}
+
+.clear{
+	clear:both;
+}
+
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+

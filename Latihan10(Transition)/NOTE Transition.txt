@@ -1,0 +1,13 @@
+TRANSITION
+
+property (transition) memungkinkan kita
+dapat mengubah nilai dari property HTML
+(secara halus).
+
+Transition : 
+
+	[property] <durasi> [fungsi] [delay];
+
+
+<durasi> di isi dengan (s/ms)
+

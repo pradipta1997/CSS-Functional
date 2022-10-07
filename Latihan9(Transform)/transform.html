@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform</title>
+<style>
+
+	/*
+		-scale(angka), scaleX(angka), sclaeY(angka)
+		-rotate(deg), rotateX(deg), rotateY(deg)
+		-skew(deg), skewX(deg), skewY(deg)
+		-translate(px), translateX(px), translate(px)
+	*/
+	
+	.kotak{
+		width: 200px;
+		height: 200px;
+		background-color: maroon;
+		margin:95px auto;
+		transition: 1s;
+	}
+
+
+	 /*UNTUK MERUBAH UKURAN DARI BENTUK AWAL (X=HORIZONTAL) (Y=VERTIKAL)
+	.kotak:hover{
+		transform: scaleX(1.5);
+		transform: scaleY(2);
+	}
+	*/
+
+	/*UNTUK MEMUTAR OBJEK (X=HORIZONTAL) (Y=VERTIKAL)
+	.kotak:hover{
+		transform: rotateY(180deg) rotateX(180deg) rotate(180deg);
+	}
+	*/
+
+	/*UNTUK MEMBUAT OBJEK MENJADI CONDONG (X=HORIZONTAL) (Y=VERTIKAL)
+	.kotak:hover{
+		transform: skew(30deg);
+	}
+	*/
+
+	/*UNTUK MEMBUAT OBJEK BERPINDAH DARI POSISI AWAL
+	.kotak:hover{
+		transform: translateY(120px) translate(120px);
+	}
+	*/
+
+	/*PENGGABUNGAN DARI FUNGSI TRANSFORM SECARA BERTUMPUK
+	.kotak:hover{
+		transform: scale(1.5) rotate(180deg) translateX(100px);
+	}
+	*/
+
+	p{
+		font-size: 20px;
+		text-align: center;
+	}
+
+</style>
+</head>
+<body>
+
+	<div class="kotak"></div>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>
